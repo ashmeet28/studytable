@@ -1,1 +1,1 @@
-# studytable
+# Study Table
