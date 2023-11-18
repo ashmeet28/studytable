@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import SignInDiv from './SignInDiv.jsx'
 import './index.css'
+import SignInScene from './SignInScene.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('mainrootdiv')).render(
   <React.StrictMode>
-    <SignInDiv />
+    <SignInScene />
   </React.StrictMode>,
 )
