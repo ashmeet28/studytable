@@ -5,9 +5,6 @@ function App() {
   return (
     <div id='usersignindiv'>
       <form action="">
-        <label htmlFor="orgnameinput">Organization Name</label><br></br>
-        <input type="text" id='orgnameinput' /><br></br>
-
         <label htmlFor="orgnameinput">Username</label><br></br>
         <input type="text" id='usernameinput' /><br></br>
 
