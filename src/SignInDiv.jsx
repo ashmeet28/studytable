@@ -22,7 +22,7 @@ function SignInDiv({ onSignIn }) {
 
         <input type="submit" value="Sign in" />
       </form>
-      <button>Create an organization</button>
+      <button>Create a new organization</button>
     </div>
   )
 }
