@@ -15,7 +15,7 @@ function SignInScene() {
     return (
         <div id='signinscene'>
             <h1>Study Table</h1>
-            <div id='usersignindiv'>
+            <div>
                 <form onSubmit={(e) => handleSignIn(e)}>
                     <label htmlFor="usernameinput">Username</label><br></br>
                     <input type="text" id='usernameinput' autoCapitalize='off' value={username} onChange={e => setUsername(e.target.value)} required /><br></br>
@@ -25,8 +25,13 @@ function SignInScene() {
 
                     <input type="submit" value="Sign in" />
                 </form>
-                <button>Create a new organization</button>
             </div>
+            <p>Note: This is a demo website.</p>
+            <p>
+                Admin Username: admin
+                <br></br>
+                Admin Password: keyqwerty
+            </p>
         </div>
     )
 }
